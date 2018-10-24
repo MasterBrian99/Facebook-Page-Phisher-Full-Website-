@@ -1,0 +1,142 @@
+*{
+
+	padding:0px;
+	margin:0px;
+	
+}
+html,body{
+	
+	height:100%;
+	
+}
+a:link{
+text-decoration:none;
+	
+}
+#center{
+	
+	width:500px;
+	height:250px;
+	padding:0px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:20px;
+	
+}
+
+#head{
+	
+	margin-left:14%;
+	font-family:Helvetica;
+	
+}
+#upper{
+background-color:#3a5795;
+font-size:42px;
+padding-top:25px;
+padding-bottom:13px; 
+
+height:45px;
+color:white;
+font-weight:bold;
+width:100%;
+position:absolute;
+top:0px;
+left:0px;
+
+}
+
+#checkbox{
+	
+	font-size:10px;
+	margin-top:10px;
+	width:100px;
+	padding-left:40px;
+}
+
+#forgot{
+	
+	font-size:10px;
+}
+#footer{
+	margin-top:100px;
+	background-color:white;
+	padding-top:3px;
+	height:190px;
+	font-size:13px;
+	width:100%;
+}
+#eng{
+	margin-left:10%;
+	
+	
+	color:grey;
+}
+#valid{
+	margin-left:10%;
+	
+color:grey;
+	
+}
+
+    #butt{
+	width:60%;
+	margin-top:20px;
+	background-color:#3a5795;
+    height:40px;
+	color:white;
+    border:none;
+	}
+	#text{
+		padding-left:1%;
+		margin-top:20px;
+		height:40px;
+		width:60%;
+	}
+	#pass{
+		padding-left:1%;
+		margin-top:20px;
+		height:40px;
+		width:60%;
+	     }
+	#sign{
+		background-color:#42b72a;
+		border:none;
+		height:26px;
+		font-family:sans-serif;
+		width:60px;
+		color:white;
+		font-size:12px;
+		font-weight:bold;
+			
+			position:relative;
+			bottom:6px;
+               }
+@media screen and ( max-width: 547px) {
+  
+    
+	#center
+	{
+		width:89%;
+		margin:0 auto;
+		margin-top:180px;
+	}
+	#head{
+		margin-left:4px;
+		
+	 }
+        
+         #butt{
+          width:100%;
+
+             }
+        #pass{
+            width:100%;
+           }
+         #text{
+           width:100%;
+
+         }
+         
+	
+}
